@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  to-ico-converter-js:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "5003:80"
